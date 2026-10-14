@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="logo">Rijalu N.F</div>
+        <div>
+            <ul class="nav_links">
+                <li><a href="#about">about</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#project">project</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="nav-A">
+        <div class="logo">Rijalu N.F</div>
+        <div class="menu-A">
+            <div class="icon-A" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">about</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">experience</a></li>
+                <li><a href="#project" onclick="toggleMenu()">project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="an_idiot.png" alt="John Doe profile picture">
+        </div>
+        <div class="section_text">
+            <p class="p1">hello i'm</p>
+            <h1>Rijalu Nur Fadzila</h1>
+            <p>A passionate developer and a gun enthusiast</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('Ini CV.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+            </div>
+            <div id="social-container">
+                <img src="linkedin.png" alt="my linkedIn profile" class="icon"
+                    onclick="location.href='https://linkedIn.com'">
+                <img src="github.png" alt="my Github profile" class="icon" onclick="location.href='https://github.com/rigelia1911/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic_container">
+                <img src="me.jpeg" alt="profile picture" class="about-pic">
+            </div>
+            <div class="about_details_container">
+                <div class="about_container">
+                    <div class="details_container">
+                        <img src="icon1.png" alt="Experience Icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>1+ Month<br>frontend developer</p>
+                    </div>
+                    <div class="details_container">
+                        <img src="icon2.png" alt="Education Icon" class="icon">
+                        <h3>Education</h3>
+                        <p>SMA Negeri Punung<br>MIPA 2</p>
+                    </div>
+                </div>
+                <div class="text_container">
+
+                    <p>Seorang mas-mas IT dari UTDI dengan NIM 245410054, orang asli Pacitan yang suka iseng-iseng bikin website. Major Gun Nerd, penggemar senjata api mulai dari handgun, shotgun, submachine gun, assault rifle, bolt-action rifle, hingga historical firearms seperti lever-action rifle dan revolver. </p>
+                </div>
+            </div>
+        </div>
+        <img src="arrow.png" alt="arrow icon" class="icon arw" onclick="location.href='#experience'">
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience_details_container">
+            <div class="about_container">
+                <div class="details_container1">
+                    <h2 class="experience_sub_title">Strong Suits</h2>
+                    <div class="article_container">
+                        <article>
+                            <img src="check.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+                <div class="details_container1">
+                    <h2 class="experience_sub_title">Weak Points</h2>
+                    <div class="article_container">
+                        <article>
+                            <img src="check.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>PostgreSQL</h3>
+                                <p>Newb</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Newb</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>GO</h3>
+                                <p>Newb</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Rust</h3>
+                                <p>Newb</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Ren'py</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <img src="arrow.png" alt="arrow icon" class="icon arw" onclick="location.href='#project'">
+    </section>
+    <section id="project">
+        <p class="section_text_p1">browse my recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience_details_container">
+            <div class="about_container">
+                <div class="details_container color_container">
+                    <div class="article_container">
+                        <img src="https://media.istockphoto.com/id/1411195926/photo/project-manager-working-on-laptop-and-updating-tasks-and-milestones-progress-planning-with.jpg?s=612x612&w=0&k=20&c=5A0CEsRbIrgnci0Q7LSxbrUZ1pliXy8C04ffpnjnVIw="
+                            alt="project1" class="project_img">
+                    </div>
+                    <h2 class="experience_sub_title project_title">Project 1</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com'">Demo</button>
+                    </div>
+                </div>
+                <div class="details_container color_container">
+                    <div class="article_container">
+                        <img src="https://img-c.udemycdn.com/course/480x270/3963688_a261_2.jpg" alt="project2"
+                            class="project_img">
+                    </div>
+                    <h2 class="experience_sub_title project_title">Project 2</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com'">Demo</button>
+                    </div>
+                </div>
+                <div class="details_container color_container">
+                    <div class="article_container">
+                        <img src="https://previews.123rf.com/images/elnur/elnur1304/elnur130402446/19136398-criminal-with-gun-isolated-on-white.jpg"
+                            alt="project3" class="project_img">
+                    </div>
+                    <h2 class="experience_sub_title project_title">Project 3</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com'">Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="arrow.png" alt="arrow icon" class="icon arw" onclick="location.href='#contact'">
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get in touch</p>
+        <h1 class="title">With Me</h1>
+        <div class="contact_info_upper_cont">
+            <div class="contact_info_cont">
+                <img src="mail.png" alt="email icon" class="icon icon-contact">
+                <p><a href="mailto:examplemail@gmail.com">rijalunurfadzila99@gmail.com</a></p>
+            </div>
+            <div class="contact_info_cont">
+                <img src="linkedin.png" alt="linkedin icon" class="icon icon-contact">
+                <p><a href="https://linkedin.com">LinkedIn</a></p>
+            </div>
+        </div>
+        <p>halaman ini dibuat pada tahun 2024, untuk memenuhi tugas proyek Studi club</p>
+        <p><a href="https://youtu.be/dQw4w9WgXcQ?si=ByEw-Hc8NjDlrFkw">click me:)</a></p>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
